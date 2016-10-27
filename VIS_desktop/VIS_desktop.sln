@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VIS_desktop", "VIS_desktop\VIS_desktop.csproj", "{8CDB1238-0538-412C-BEDF-210E78C15E4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data", "data\data.csproj", "{ED13B0F9-8323-4F43-9F2B-0E3926617A1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domena", "Domena\Domena.csproj", "{37DCA53D-6724-4246-8D9E-85100F474A15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CDB1238-0538-412C-BEDF-210E78C15E4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CDB1238-0538-412C-BEDF-210E78C15E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CDB1238-0538-412C-BEDF-210E78C15E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CDB1238-0538-412C-BEDF-210E78C15E4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED13B0F9-8323-4F43-9F2B-0E3926617A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED13B0F9-8323-4F43-9F2B-0E3926617A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED13B0F9-8323-4F43-9F2B-0E3926617A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED13B0F9-8323-4F43-9F2B-0E3926617A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37DCA53D-6724-4246-8D9E-85100F474A15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37DCA53D-6724-4246-8D9E-85100F474A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37DCA53D-6724-4246-8D9E-85100F474A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37DCA53D-6724-4246-8D9E-85100F474A15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

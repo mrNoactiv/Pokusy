@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IS>
+  <pisnicka>
+    <id>200</id>
+    <nazev>pisnicka xml1</nazev>
+    <hodnoceni>0.2</hodnoceni>
+    <delka>5:28</delka>
+    <interpret>
+      <id>200</id>
+      <jmeno>interpret xml1</jmeno>
+      <umeleckeJmeno>wqhjbgfhqwje</umeleckeJmeno>
+      <zeme>wqhjbgfhqwje</zeme>
+      <datumNarozeni>1989-07-08 00:00:00.000</datumNarozeni>
+    </interpret>
+    <zanr>
+      <id>200</id>
+      <nazev>Zanr XML 1</nazev>
+      <popis>wqhjbgfhqwje</popis>
+    </zanr>
+    <album>
+      <id>200</id>
+      <nazev>ALbum xml1</nazev>
+      <pocetPisnicek>0</pocetPisnicek>
+      <datumVydani>2000-02-10 00:00:00.000</datumVydani>
+    </album>
+  </pisnicka>
+  <interpret>
+    <id>200</id>
+    <jmeno>interpret xml1</jmeno>
+    <umeleckeJmeno>wqhjbgfhqwje</umeleckeJmeno>
+    <zeme>wqhjbgfhqwje</zeme>
+    <datumNarozeni>1989-07-08 00:00:00.000</datumNarozeni>
+  </interpret>
+  <interpret>
+    <id>201</id>
+    <jmeno>interpret xml2</jmeno>
+    <umeleckeJmeno>gergwrgwer</umeleckeJmeno>
+    <zeme>wqhjbgfhqwje</zeme>
+    <datumNarozeni>1989-07-08 00:00:00.000</datumNarozeni>
+  </interpret>
+  <interpret>
+    <id>202</id>
+    <jmeno>interpret xml3</jmeno>
+    <umeleckeJmeno>awdadwadwa</umeleckeJmeno>
+    <zeme>wqhjbgfhqwje</zeme>
+    <datumNarozeni>1989-07-08 00:00:00.000</datumNarozeni>
+  </interpret>
+  <zanr>
+    <id>200</id>
+    <nazev>Zanr XML 1</nazev>
+    <popis>wqhjbgfhqwje</popis>
+  </zanr>
+  <zanr>
+    <id>201</id>
+    <nazev>Zanr xml2</nazev>
+    <popis>gergwrgwer</popis>
+  </zanr>
+  <zanr>
+    <id>202</id>
+    <nazev>Zanr xml3</nazev>
+    <popis>awdadwadwa</popis>
+  </zanr>
+  <album>
+    <id>200</id>
+    <nazev>ALbum xml1</nazev>
+    <pocetPisnicek>0</pocetPisnicek>
+    <datumVydani>2000-02-10 00:00:00.000</datumVydani>
+  </album>
+  <album>
+    <id>201</id>
+    <nazev>ALbum xml2</nazev>
+    <pocetPisnicek>0</pocetPisnicek>
+    <datumVydani>2000-02-10 00:00:00.000</datumVydani>
+  </album>
+  <album>
+    <id>202</id>
+    <nazev>ALbum xml3</nazev>
+    <pocetPisnicek>0</pocetPisnicek>
+    <datumVydani>2000-02-10 00:00:00.000</datumVydani>
+  </album>
+  <album>
+    <id>5421</id>
+    <nazev>XML album4</nazev>
+    <pocetPisnicek>0</pocetPisnicek>
+    <datumVydani>1994-02-02T00:00:00</datumVydani>
+  </album>
+  <album>
+    <id>5421</id>
+    <nazev>XML album</nazev>
+    <pocetPisnicek>0</pocetPisnicek>
+    <datumVydani>1994-02-02T00:00:00</datumVydani>
+  </album>
+  <uzivatel>
+    <id>200</id>
+    <prezdivka>adminXML</prezdivka>
+    <email>xml@hue.cz</email>
+    <typ>admin</typ>
+    <heslo>admin</heslo>
+  </uzivatel>
+  <uzivatel>
+    <id>201</id>
+    <prezdivka>Userxml2</prezdivka>
+    <email>gergwrgwer</email>
+    <typ>user</typ>
+    <heslo>1234</heslo>
+  </uzivatel>
+  <uzivatel>
+    <id>202</id>
+    <prezdivka>Userxml3</prezdivka>
+    <email>awdadwadwa</email>
+    <typ>user</typ>
+    <heslo>1234</heslo>
+  </uzivatel>
+  <uzivatel>
+    <id>5421</id>
+    <prezdivka>insertXML</prezdivka>
+    <typ>user</typ>
+    <heslo>insertXML</heslo>
+  </uzivatel>
+</IS>

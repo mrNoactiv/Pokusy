@@ -1,0 +1,2 @@
+C:\Users\Tomáš\Documents\Visual Studio 2015\Projects\VIS_desktop\VIS_desktop\bin\Debug\VIS_desktop.exe.config
+D:\skola\github repository\Pokusy\VIS_desktop\VIS_desktop\bin\Debug\VIS_desktop.exe.config

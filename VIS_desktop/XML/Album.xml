@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Album>
+<album>
+  <id>200</id>
+  <nazev>ALbum xml1</nazev>
+  <pocetPisnicek>0</pocetPisnicek>
+  <datumVydani>2000-02-10 00:00:00.000</datumVydani>
+</album>
+<album>
+  <id>201</id>
+  <nazev>ALbum xml2</nazev>
+  <pocetPisnicek>0</pocetPisnicek>
+  <datumVydani>2000-02-10 00:00:00.000</datumVydani>
+</album>
+<album>
+  <id>202</id>
+  <nazev>ALbum xml3</nazev>
+  <pocetPisnicek>0</pocetPisnicek>
+  <datumVydani>2000-02-10 00:00:00.000</datumVydani>
+</album>
+</Album>

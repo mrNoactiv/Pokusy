@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ED13B0F9-8323-4F43-9F2B-0E3926617A1A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>data</RootNamespace>
+    <AssemblyName>data</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Database.cs" />
+    <Compile Include="Databaze SQL\AlbumFinder.cs" />
+    <Compile Include="Databaze SQL\AlbumGateway.cs" />
+    <Compile Include="Databaze SQL\HodnoceniPisnicky.cs" />
+    <Compile Include="Databaze SQL\HodnoceniPisnickyFinder.cs" />
+    <Compile Include="Databaze SQL\HodnoceniPisnickyGateway.cs" />
+    <Compile Include="Databaze SQL\InterpretFinder.cs" />
+    <Compile Include="Databaze SQL\InterpretGateway.cs" />
+    <Compile Include="Databaze SQL\KnihovnaFinder.cs" />
+    <Compile Include="Databaze SQL\KnihovnaGateway.cs" />
+    <Compile Include="Databaze SQL\ObjednaniFinder.cs" />
+    <Compile Include="Databaze SQL\ObjednaniGateway.cs" />
+    <Compile Include="Databaze SQL\ObjednavkaFinder.cs" />
+    <Compile Include="Databaze SQL\ObjednavkaGateway.cs" />
+    <Compile Include="Databaze SQL\PisnickaFinder.cs" />
+    <Compile Include="Databaze SQL\PisnickaGateway.cs" />
+    <Compile Include="Databaze SQL\UlozeniFinder.cs" />
+    <Compile Include="Databaze SQL\UlozeniGateway.cs" />
+    <Compile Include="Databaze SQL\UzivatelFinder.cs" />
+    <Compile Include="Databaze SQL\UzivatelGateway.cs" />
+    <Compile Include="Databaze SQL\ZanrFinder.cs" />
+    <Compile Include="Databaze SQL\ZanrGateway.cs" />
+    <Compile Include="DatabazeXML\XmlHodnoceniPisnickyFinder.cs" />
+    <Compile Include="DatabazeXML\XmlHodnoceniPisnickyGateway.cs" />
+    <Compile Include="DatabazeXML\XmlKnihovnaFinder.cs" />
+    <Compile Include="DatabazeXML\XmlKnihovnaGateway.cs" />
+    <Compile Include="DatabazeXML\XmlObjednaniFinder.cs" />
+    <Compile Include="DatabazeXML\XmlObjednaniGateway.cs" />
+    <Compile Include="DatabazeXML\XmlObjednavkaFinder.cs" />
+    <Compile Include="DatabazeXML\XmlObjednavkaGateway.cs" />
+    <Compile Include="DatabazeXML\XmlUlozeniFinder.cs" />
+    <Compile Include="DatabazeXML\XmlUlozeniGateway.cs" />
+    <Compile Include="DatabazeXML\XmlAlbumFinder.cs" />
+    <Compile Include="DatabazeXML\XmlAlbumGateway.cs" />
+    <Compile Include="DatabazeXML\XmlIInterpretFinder.cs" />
+    <Compile Include="DatabazeXML\XmlInterpretGateway.cs" />
+    <Compile Include="DatabazeXML\XmlPisnickaFinder.cs" />
+    <Compile Include="DatabazeXML\XmlPisnickaGateway.cs" />
+    <Compile Include="DatabazeXML\XmlUzivatelFinder.cs" />
+    <Compile Include="DatabazeXML\XmlUzivatelGateway.cs" />
+    <Compile Include="DatabazeXML\XmlZanrFinder.cs" />
+    <Compile Include="DatabazeXML\XmlZanrGateway.cs" />
+    <Compile Include="Interface\IAlbumFinder.cs" />
+    <Compile Include="Interface\IAlbumGateway.cs" />
+    <Compile Include="Interface\IHodnoceniPisnickyFinder.cs" />
+    <Compile Include="Interface\IHodnoceniPisnickyGateway.cs" />
+    <Compile Include="Interface\IInterpretFinder.cs" />
+    <Compile Include="Interface\IInterpretGateway.cs" />
+    <Compile Include="Interface\IKnihovnaFinder.cs" />
+    <Compile Include="Interface\IKnihovnaGateway.cs" />
+    <Compile Include="Interface\IObjednaniFinder.cs" />
+    <Compile Include="Interface\IObjednaniGateway.cs" />
+    <Compile Include="Interface\IObjednavkaFinder.cs" />
+    <Compile Include="Interface\IObjednavkaGateway.cs" />
+    <Compile Include="Interface\IPisnickaFinder.cs" />
+    <Compile Include="Interface\IPisnickaGateway.cs" />
+    <Compile Include="Interface\IUlozeniFinder.cs" />
+    <Compile Include="Interface\IUlozeniGateway.cs" />
+    <Compile Include="Interface\IUzivatelFinder.cs" />
+    <Compile Include="Interface\IUzivatelGateway.cs" />
+    <Compile Include="Interface\IZanrFinder.cs" />
+    <Compile Include="Interface\IZanrGateway.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

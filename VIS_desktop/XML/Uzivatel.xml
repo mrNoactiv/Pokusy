@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Uzivatel>
+<uzivatel>
+  <id>200</id>
+  <prezdivka>UserXML1</prezdivka>
+  <email>wqhjbgfhqwje</email>
+  <typ>admin</typ>
+  <heslo>admin</heslo>
+</uzivatel>
+<uzivatel>
+  <id>201</id>
+  <prezdivka>Userxml2</prezdivka>
+  <email>gergwrgwer</email>
+  <typ>user</typ>
+  <heslo>1234</heslo>
+</uzivatel>
+<uzivatel>
+  <id>202</id>
+  <prezdivka>Userxml3</prezdivka>
+  <email>awdadwadwa</email>
+  <typ>user</typ>
+  <heslo>1234</heslo>
+</uzivatel>
+</Uzivatel>
